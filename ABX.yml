@@ -3,13 +3,13 @@ welcome:
   description: |-
     ### Minimal listening test
 options:
-  - name: lossless
-    audioUrl: 
-  - name: 64 kbps
-    audioUrl: https://www.dropbox.com/s/epvit0keu9w7emp/Wintersun%20-%20Sons%20of%20Winter%20and%20Stars%2064%20kbps.mp3?dl=0
+  - name: 5khz
+    audioUrl: https://github.com/iPlayTheKazoo/ABX-test/raw/main/5khz.wav 
+  - name: 6khz
+    audioUrl: https://github.com/iPlayTheKazoo/ABX-test/raw/main/6khz.wav
 tests:
-  - name: Lossless vs 64 kbps
+  - name: 5khz vs 6khz
     testType: ABX
     options:
-      - lossless
-      - 64 kbps
+      - 5khz
+      - 6khz
