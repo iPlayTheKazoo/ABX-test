@@ -1,0 +1,15 @@
+name: Minimal listening test
+welcome:
+  description: |-
+    ### Minimal listening test
+options:
+  - name: lossless
+    audioUrl: 
+  - name: 64 kbps
+    audioUrl: https://www.dropbox.com/s/epvit0keu9w7emp/Wintersun%20-%20Sons%20of%20Winter%20and%20Stars%2064%20kbps.mp3?dl=0
+tests:
+  - name: Lossless vs 64 kbps
+    testType: ABX
+    options:
+      - lossless
+      - 64 kbps
